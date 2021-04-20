@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import chipImage from "../v1.jpg";
 import { Link } from "react-router-dom";
+import Message from "./Message";
 import "../style/Chips.css";
+
 class Chips extends Component {
   constructor(props) {
     super(props);
@@ -28,12 +30,13 @@ class Chips extends Component {
     ));
     return (
       <div className="Chips">
-        <h1>bags eaten: {this.state.bags.length}</h1>
-        <button onClick={this.handleClick}>Nom Nom Nom</button>
-        <h1>
-          <Link to="/">Back</Link>
-        </h1>
-
+        <Message>
+          <h1>bags eaten: {this.state.bags.length}</h1>
+          <button onClick={this.handleClick}>Nom Nom Nom</button>
+          <h1>
+            <Link to="/">Back</Link>
+          </h1>
+        </Message>
         {bags}
       </div>
     );
