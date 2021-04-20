@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import chipImage from "./v1.jpg";
+import chipImage from "../v1.jpg";
+import "../style/Chips.css";
 class Chips extends Component {
   render() {
     return (

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import VendingMachine from "./VendingMachine";
+import VendingMachine from "./components/VendingMachine";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Sardines from "./Sardines";
-import Soda from "./Soda";
-import Chips from "./Chips";
+import Sardines from "./components/Sardines";
+import Soda from "./components/Soda";
+import Chips from "./components/Chips";
 class App extends Component {
   render() {
     return (

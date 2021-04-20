@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import sodaImg from "./v2.jpg";
+import sodaImg from "../v2.jpg";
+import "../style/Soda.css";
 class Soda extends Component {
   render() {
     return (

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "../style/Sardines.css";
 class Sardines extends Component {
   render() {
     return (

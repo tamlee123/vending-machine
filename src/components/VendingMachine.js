@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import vendingMachineImage from "./v3.jpg";
-import "./style/VendingMachine.css";
+import vendingMachineImage from "../v3.jpg";
+import "../style/VendingMachine.css";
 class VendingMachine extends Component {
   render() {
     return (
