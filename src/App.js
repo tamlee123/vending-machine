@@ -5,10 +5,12 @@ import "./App.css";
 import Sardines from "./components/Sardines";
 import Soda from "./components/Soda";
 import Chips from "./components/Chips";
+import Narbar from "./components/Navbar";
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Narbar />
         <Switch>
           <Route path="/soda" component={Soda} />
           <Route path="/sardines" component={Sardines} />
