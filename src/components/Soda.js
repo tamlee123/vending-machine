@@ -6,6 +6,10 @@ class Soda extends Component {
     return (
       <div className="soda">
         <img src={sodaImg} alt="pepsi can" />
+        <h1>SODAAAAA IS MY FAVORITE</h1>
+        <h3>But now I drink sparkling water instead</h3>
+        <p>(I still miss Soda)</p>
+        <img src={sodaImg} alt="coca cola can" />
       </div>
     );
   }
