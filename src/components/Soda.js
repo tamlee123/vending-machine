@@ -11,7 +11,7 @@ class Soda extends Component {
         <img src={sodaImg} alt="pepsi can" />
         <Message>
           <h1>SODAAAAA IS MY FAVORITE</h1>
-          <h3>But now I drink sparkling water instead</h3>
+          <h3>I needed another soda. I'd only had six since breakfast. </h3>
           <p>(I still miss Soda)</p>
           <Link to="/">Back</Link>
         </Message>
