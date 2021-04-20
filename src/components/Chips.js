@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import chipImage from "../v1.jpg";
 import "../style/Chips.css";
+import { Link } from "react-router-dom";
 
 class Chips extends Component {
   constructor(props) {
     super(props);
-    this.state = { bag: [] };
+    this.state = { bags: [] };
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
@@ -30,6 +31,7 @@ class Chips extends Component {
       <div className="Chips">
         <h1>bags eaten: {this.state.bags.lengths}</h1>
         <button onClick={this.handleClick}>Nom Nom Nom</button>
+        <Link to="/">Back</Link>
         {bags}
       </div>
     );
