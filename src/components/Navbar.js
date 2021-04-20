@@ -5,6 +5,9 @@ class Narbar extends Component {
   render() {
     return (
       <div className="Navbar">
+        <NavLink exact activeClassName="Navbar-active" to="/">
+          Home
+        </NavLink>
         <NavLink exact activeClassName="Navbar-active" to="/chips">
           Chips
         </NavLink>
@@ -13,9 +16,6 @@ class Narbar extends Component {
         </NavLink>
         <NavLink exact activeClassName="Navbar-active" to="/soda">
           Soda
-        </NavLink>
-        <NavLink exact activeClassName="Navbar-active" to="/">
-          Home
         </NavLink>
       </div>
     );
